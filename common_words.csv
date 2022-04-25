@@ -1,0 +1,511 @@
+Category,English,Transliteration,Hebrew
+"Adjectives, Adverbs",,,
+,A little,K-tsat,קצת
+,A lot,Har-be,הרבה
+,Again,Shuv,שוב
+,All,Kol,כל
+,Alone,Le-vad,לבד
+,Also,Gam,גם
+,Angry,Ko-es,כועס
+,Bad,Ra,רע
+,Beautiful,Ya-fe,יפה
+,Big,Ga-dol,גדול
+,Black,Sha-khor,שחור
+,Blue,Ka-chol,כחול
+,Boring,Me-sha-a-mem,משעמם
+,Cheap,Zol,זול
+,Clean,Na-ki,נקי
+,Closed,Sa-gur,סגור
+,Cold,Kar,קר
+,Correct,Na-chon,נכון
+,Difficult,Ka-she,קשה
+,Down,Le-ma-ta,למטה
+,Early,Muk-dam,מוקדם
+,Easy,Kal,קל
+,Exciting,Mal-hiv,מלהיב
+,Expensive,Ya-kar,יקר
+,Fast,Ma-hair,מהיר
+,Fat,Sha-men,שמן
+,First,Ri-shon,ראשון
+,Forbidden,A-sur,אסור
+,Fried,Me-tu-gan,מטוגן
+,Full,Ma-le,מלא
+,Funny,Mats-chik,מצחיק
+,Good,Tov,טוב
+,Green,Ya-rok,ירוק
+,Hard,Ka-she,קשה
+,Half (of something),Che-tsi,חצי
+,Healthy,Ba-ri,בריא
+,Here,Po,פה
+,High,Ga-vo-ha,גבוה
+,Hot,Kham,חם
+,Hungry,Ra-ev,רעב
+,Important,Cha-shuv,חשוב
+,Inside,Bif-nim,בפנים
+,Intelligent,Na-von,נבון
+,Interesting,Me-an-yen,מעניין
+,Jewish,Ye-hu-di,יהודי
+,Kosher,Ka-sher,כשר
+,"Last, final",A-cha-ron,אחרון
+,Late,Me-u-char,מאוחר
+,Lazy,Ats-lan,עצלן
+,Left (direction),Smo-la,שמאלה
+,Low,Na-mukh,נמוך
+,Married,Na-su-i,נשוי
+,Medium,Bei-no-ni,בינוני
+,New,Cha-dash,חדש
+,Next,Ha-ba,הבא
+,Noisy,Ro-esh,רועש
+,Okay,Be-se-der,בסדר
+,Old (person),Za-ken,זקן
+,Old (thing),Ya-shan,ישן
+,Open,Pa-tu-akh,פתוח
+,Orange (color),Ka-tom,כתום
+,Outside,Ba-chuts,בחוץ
+,Poor,A-ni,עני
+,Purple,Sa-gol,סגול
+,Quarter (of something),Re-va,רבע
+,Quickly,Ma-hair,מהר
+,Quiet,She-ket,שקט
+,Ready,Mu-chan,מוכן
+,Red,A-dom,אדום
+,Religious,Da-ti,דתי
+,Rich,A-shir,עשיר
+,Right (direction),Ya-mi-na,ימינה
+,Secular,Chi-lo-ni,חלוני
+,Sick,Cho-le,חולה
+,Simple,Pa-shut,פשוט
+,Singular; single (not married),Ya-chid,יחיד
+,Slow,I-ti,איטי
+,Slowly,Le-at,לאט
+,Small,Ka-tan,קטן
+,Smart,Pi-ke-ach,פיקח
+,Smelly,Mas-ri-ach,מסריח
+,Soft,Rach,רך
+,Soon,Be-ka-rov,בקרוב
+,Spicy (hot),Cha-rif,חריף
+,Straight ahead; honest,Ya-shar,ישר
+,Strong,Cha-zak,חזק
+,Sweet,Ma-tok,מתוק
+,Tasty,Ta-im,טעים
+,There,Sham,שם
+,Thin,Ra-ze,רזה
+,Third (of something),Shlish,שליש
+,Tired,A-yef,עייף
+,Today,Ha-yom,היום
+,Together,Be-ya-chad,ביחד
+,Tomorrow,Ma-char,מחר
+,Twice,Pa-a-ma-yim,פעמים
+,Ugly,Me-cho-ar,מכוער
+,Up,Le-ma-la,למעלה
+,Weak,Cha-lash,חלש
+,Very,Me-od,מאוד
+,Wet,Ra-tuv,רטוב
+,White,La-van,לבן
+,Who,Mi,מי
+,Whole,Sha-laim,שלם
+,Without,Bli,בלי
+,Yellow,Tsa-hov,צהוב
+,Yes,Ken,כן
+,Yesterday,Et-mol,אתמול
+"Conjunctions, prepositions",,,
+,And,Ve,-ו
+,Before,Lif-nei,לפני
+,But,A-val,אבל
+,"By, with, at the place of",Ets-el,אצל
+,From,Me,-מ
+,If,Im,אם
+,"In, at","Be, ba",-ב
+,Like/ as,Ke,-כ
+,Maybe,U-lai,אולי
+,No,Lo,לא
+,Now,Ach-shav,עכשיו
+,Of,Shel,של
+,"On, about",Al,על
+,Once,Pa-am,פעם
+,Only,Rak,רק
+,Or,O,או
+,So,Az,אז
+,The,Ha,-ה
+,This,Ze,זה
+,"To, for",Le,-ל
+Nouns,,,
+,Address,Ktov-et,כתובת
+,Air conditioner,Maz-gan,מזגן
+,Airplane,Ma-tos,מטוס
+,Airport,Na-mal te-u-fa,נמל תעופה
+,Almond,Sha-ked,שקד
+,Answer,Tshu-va,תשובה
+,Ant,Ne-ma-la,נמלה
+,Apartment,Di-ra,דירה
+,Apple,Ta-pu-akh,תפוח
+,Arabic,A-ra-vit,ערבית
+,Arm,Yad,יד
+,Atm,Kas-po-mat,כספומט
+,Aunt,Do-da,דודה
+,Baby,Ti-nok,תינוק
+,Back,Gav,גב
+,Bag,Tik,תיק
+,Bakery,Ma-a-fi-ya,מאפייה
+,Ball,Ka-dur,כדור
+,Banana,Ba-na-na,בננה
+,Bank,Bank,בנק
+,Basketball,Ka-dur-sal,כדורסל
+,Beach,Khof,חוף
+,Bed,Mi-ta,מיטה
+,Beef,Ba-kar,בקר
+,Beer,Bi-ra,בירה
+,Beet(root),Se-lek,סלק
+,Belt,Cha-go-ra,חגורה
+,Bicycle,O-fa-na-yim,אופניים
+,"Bill, check",Khesh-bon,חשבון
+,Bird,Tsi-por,ציפור
+,Body,Guf,גוף
+,Bone,E-tsem,עצם
+,Book,Se-fer,ספר
+,Bottle,Bak-buk,בקבוק
+,Bowl,Ke-a-ra,קערה
+,Boy,Ye-led,ילד
+,Brain,Mo-akh,מוח
+,Bread,Le-khem,לחם
+,Break,Haf-sa-ka,הפסקה
+,Breakfast,A-ru-chat bo-ker,ארוחת בוקר
+,Brother,Ach,אח
+,Brown,Khum,חום
+,Building,Bin-yan,בניין
+,Bus,O-to-bus,אוטובוס
+,Butter,Chem-a,חמאה
+,Cabbage,Kruv,כרוב
+,Cake,U-ga,עוגה
+,Camera,Mats-le-ma,מצלמה
+,Car,Me-kho-nit,מכונית
+,Carrot,Ge-zer,גזר
+,Cat,Cha-tul,חתול
+,Ceiling,Tik-ra,תקרה
+,Chair,Ki-se,כיסא
+,Challah,Cha-la,חלה
+,Channel (tv),A-ruts,ערוץ
+,Chapter,Pe-rek,פרק
+,Cheese,Gvi-na,גבינה
+,Cherry,Duv-de-van,דובדבן
+,Chest,Cha-ze,חזה
+,Chicken,Of,עוף
+,Chocolate,Sho-ko-lad,שוקולד
+,City,Ir,עיר
+,Classroom,Ki-ta,כיתה
+,Clock,Sha-on,שעון
+,Clothes,Be-ga-dim,בגדים
+,Cloud,A-nan,ענן
+,Cockroach,Juk,ג’וק
+,Coffee,Ka-fe,קפה
+,Color,Tse-va,צבע
+,Company,Chev-ra,חברה
+,Computer,Mach-shev,מחשב
+,Country,Me-di-na,מדינה
+,Cousin,Ben dod,בן דוד
+,Cucumber,Me-la-fe-fon,מלפפון
+,Dad,A-ba,אבא
+,Date (the fruit),Ta-mar,תמר
+,Daughter,Bat,בת
+,Day,Yom,יום
+,Desert,Mid-bar,מדבר
+,Dictionary,Mi-lon,מילון
+,Doctor/physician,Ro-fe,רופא
+,Dog,Ke-lev,כלב
+,Door,De-let,דלת
+,Drink,Shti-ya,שתייה
+,Driver,Na-hag,נהג
+,Ear,O-zen,אוזן
+,East,Miz-rakh,מזרח
+,Egg,Bei-tsa,ביצה
+,End,Sof,סוף
+,Engineer,Me-han-des,מהנדס
+,English,An-glit,אנגלית
+,Entrance,Kni-sa,כניסה
+,Evening,E-rev,ערב
+,Excellent,Me-tsu-yan,מצוין
+,Exercise,Hit-am-lut,התעמלות
+,Exit,Ye-tsi-a,יציאה
+,Eye,A-yin,עין
+,Face,Pa-nim,פנים
+,Faculty,Fa-kul-ta,פקולטה
+,Falafel,Fa-la-fel,פלאפל
+,Fall (the season),Stav,סתיו
+,Family,Mish-pa-cha,משפחה
+,Fig,Te-e-na,תאנה
+,Toe,Ets-ba,אצבע
+,Finger,Ets-ba,אצבע
+,Fish,Dag,דג
+,Floor,Rits-pa,רצפה
+,Food,O-chel,אוכל
+,Foot,Kaf re-gel,כף רגל
+,Fork,Maz-leg,מזלג
+,Friday,Yom shi-shi,יום שישי
+,Friend,Cha-ver,חבר
+,Fruit,Pri,פרי
+,Future,A-tid,עתיד
+,Game,Mis-chak,משחק
+,Garbage can,Pach ash-pa,פח אשפה
+,Garlic,Shoom,שום
+,Gasoline,De-lek,דלק
+,Gate,Sha-ar,שער
+,Girl,Yal-da,ילדה
+,"Glass, cup",Kos,כוס
+,Government,Mem-sha-la,ממשלה
+,Grandfather,Sa-ba,סבא
+,Grandmother,Sav-ta,סבתא
+,Grapefruit,Esh-ko-lit,אשכולית
+,Grapes,A-na-vim,ענבים
+,Group,Kvu-tsa,קבוצה
+,Hair,Se-ar,שער
+,Hand,Yad,יד
+,Hat,Ko-va,כובע
+,He,Hu,הוא
+,Head,Rosh,ראש
+,Heart,Lev,לב
+,Hebrew,Iv-rit,עברית
+,Height,Go-va,גובה
+,Hobby,Takh-biv,תחביב
+,Holiday,Khag,חג
+,Honey,Dvash,דבש
+,Hospital,Beit kho-lim,בית חולים
+,Hot chocolate,Sho-ko kham,שוקו חם
+,Hotel,Ma-lon,מלון
+,Hour,Sha-a,שעה
+,House,Ba-yit,בית
+,Hummus,Chu-mus,חומוס
+,Husband,Ba-al,בעל
+,I,A-ni,אני
+,I.d.f. (israel defense forces),Tsa-hal,צה”ל
+,Ice cream,Gli-da,גלידה
+,Idea,Ra-a-yon,רעיון
+,Israel,Is-ra-el,ישראל
+,Juice,Mits,מיץ
+,Key,Maf-te-ach,מפתח
+,Kitchen,Mit-bakh,מטבח
+,Knife,Sa-kin,סכין
+,Lamb,Ta-le,טלה
+,Language,Sa-fa,שפה
+,Leg,Re-gel,רגל
+,Lemon,Li-mon,לימון
+,Lesson,Shi-ur,שיעור
+,Lettuce,Cha-sa,חסה
+,Library,Sif-ri-ya,ספרייה
+,Lizard,Le-ta-a,לטאה
+,Mail; post office,Do-ar,דואר
+,Mall,Kan-yon,קניון
+,Manager,Me-na-hel,מנהל
+,Mango,Man-go,מנגו
+,Meat,Ba-sar,בשר
+,Meter,Me-ter,מטר
+,Microwave,Mik-ro-gal,מיקרוגל
+,Milk,Cha-lav,חלב
+,Minute,Da-ka,דקה
+,Mold,O-vesh,עובש
+,Mom,I-ma,אימא
+,Moment,Re-ga,רגע
+,Monday,Yom she-ni,יום שני
+,Money,Ke-sef,כסף
+,Month,Cho-desh,חודש
+,Moon,Ya-re-akh,ירח
+,Morning,Bo-ker,בוקר
+,Mosquito,Ya-tush,יתוש
+,Mouth,Pe,פה
+,Movie,Se-ret,סרט
+,Museum,Mu-zei-on,מוזיאון
+,Mushrooms,Pit-ri-yot,פטריות
+,Music,Mu-zi-ka,מוזיקה
+,Name,Shem,שם
+,Napkin,Ma-pit,מפית
+,Nectarine,Nek-ta-ri-na,נקטרינה
+,Neighborhood,Sh’chu-na,שכונה
+,News,Cha-da-shot,חדשות
+,Newspaper,I-ton,עיתון
+,Night,Lai-la,לילה
+,Noon,Tso-ho-ra-yim,צהריים
+,North,Tsa-fon,צפון
+,Nose,Af,אף
+,Notebook,Mach-be-ret,מחברת
+,Nothing,Klum,כלום
+,Number,Mis-par,מספר
+,Office,Mis-rad,משרד
+,Oil,She-men,שמן
+,Olive,Za-yit,זית
+,Onion,Ba-tsal,בצל
+,Orange (food),Ta-puz,תפוז
+,Oven,Ta-nur,תנור
+,Pain/ache,Ke-ev,כאב
+,Palm,Kaf yad,כף יד
+,Pants,Mich-na-sa-yim,מכנסים
+,Paper,Ni-yar,נייר
+,Parents,Ho-rim,הורים
+,Parsley,Pet-ro-zil-ya,פטרוזיליה
+,Passport,Dar-kon,דרכון
+,Past,A-var,עבר
+,Pasta,Pas-ta,פסטה
+,Pastry,Ma-a-fe,מאפה
+,Peach,A-far-sek,אפרסק
+,Pear,A-gas,אגס
+,Pen,Et,עט
+,Pencil,I-pa-ron,עפרון
+,Pepper,Pil-pel,פלפל
+,Pharmacy,Beit mir-ka-chat,בית מרקחת
+,Piano,Psan-ter,פסנתר
+,Pickles,Cha-mu-tsim,חמוצים
+,Picture,Tmu-na,תמונה
+,Pillow,Ka-rit,כרית
+,Pineapple,A-na-nas,אננס
+,Pita,Pi-ta,פיתה
+,Place,Ma-kom,מקום
+,Plate,Tsa-la-chat,צלחת
+,Plum,She-zif,שזיף
+,Police,Mish-ta-ra,משטרה
+,Pomegranate,Ri-mon,רימון
+,Potato,Ta-pu-ach a-da-ma,תפוח אדמה
+,Present (tense),Ho-ve,הווה
+,Printer,Mad-pe-set,מדפסת
+,Question,She-e-la,שאלה
+,Quinoa,Ki-no-a,קינואה
+,Rabbi,Rav,רב
+,Rain,Ge-shem,גשם
+,Receipt,Ka-ba-la,קבלה
+,Refrigerator,Me-ka-rer,מקרר
+,Restaurant,Mis-a-da,מסעדה
+,Rice,O-rez,אורז
+,River,Na-har,נהר
+,"Road, route",Kvish,כביש
+,Room,Che-der,חדר
+,Rug,Sha-ti-akh,שטיח
+,Salad,Sa-lat,סלט
+,Salt,Me-lakh,מלח
+,Sandals,San-da-lim,סנדלים
+,Saturday,Sha-bat,שבת
+,Sauce,Ro-tev,רוטב
+,Schnitzel,Shni-tsel,שניצל
+,School,Beit se-fer,בית ספר
+,Scientist,Mad-an,מדען
+,Sea,Yam,ים
+,Serving/portion,Ma-na,מנה
+,Shakshuka,Shak-shu-ka,שקשוקה
+,Shawarma,Sha-war-ma,שווארמה
+,She,Hi,היא
+,Sheet,Sa-din,סדין
+,Shekel,She-kel,שקל
+,Shirt,Chul-tsa,חולצה
+,Shoes,Na-a-la-yim,נעליים
+,Shorts,Mich-na-sa-yim k-tsar-im,מכנסים קצרים
+,Shuttle taxi,Shei-rut,שירות
+,Sidewalk,Mid-ra-cha,מדרכה
+,Sister,A-chot,אחות
+,Skirt,Cha-tsa-it,חצאית
+,Sky,Sha-ma-yim,שמיים
+,Soap,Sa-bon,סבון
+,Soccer,Ka-du-re-gel,כדורגל
+,Socks,Gar-ba-yim,גרביים
+,Sofa,Sa-pa,ספה
+,Someone,Mi-she-hu,מישהו
+,Something,Ma-she-hu,משהו
+,Son,Ben,בן
+,Soup,Ma-rak,מרק
+,South,Da-rom,דרום
+,Spider,A-ka-vish,עכביש
+,Spinach,Te-red,תרד
+,Spoon,Kaf,כף
+,Sport,Sport,ספורט
+,Spring,A-viv,אביב
+,"Squash, zucchini",Ki-shu,קישוא
+,Star,Ko-chav,כוכב
+,"Station, stop",Ta-cha-na,תחנה
+,Stomach,Be-ten,בטן
+,Stop,A-tsor,עצור
+,Store,Kha-nut,חנות
+,Story,Si-pur,סיפור
+,Strawberry,Tut,תות
+,Street,Re-chov,רחוב
+,Student,Stu-dent,סטודנט
+,Sugar,Su-kar,סוכר
+,Summer,Ka-yits,קיץ
+,Sun,She-mesh,שמש
+,Sunday,Yom ri-shon,יום ראשון
+,Supermarket,Su-per-mar-ket,סופרמרקט
+,Surname,Shem mish-pa-cha,שם משפחה
+,Sweet potato,Ba-ta-ta,בטטה
+,Swimming,Schi-ya,שחייה
+,Synagogue,Beit kne-set,בית כנסת
+,Table,Shul-chan,שולחן
+,Taxi,Mo-nit,מונית
+,Tea,Te,תה
+,Teacher,"Mo-re, mo-ra",מורה
+,Teeth,Shi-na-yim,שיניים
+,Telephone,Te-le-fon,טלפון
+,Test/exam,Miv-khan,מבחן
+,They (f.),Hen,הן
+,They (m.),Hem,הם
+,Thumb,A-gu-dal,אגודל
+,Thursday,Yom cha-mi-shi,יום חמישי
+,Time,Zman,זמן
+,Toilet (bathroom),She-ru-tim,שרותים
+,Tomato,Ag-va-ni-ya,עגבניה
+,Towel,Ma-ge-vet,מגבת
+,Traffic,Tnu-a,תנועה
+,Train,Ra-ke-vet,רכבת
+,"Tree, wood",Ets,עץ
+,"Trip, hike",Ti-yul,טיול
+,Tuesday,Yom shli-shi,יום שלישי
+,Tunnel,Min-ha-ra,מנהרה
+,Turkey,Ho-du,הודו
+,Tv,Te-le-viz-ya,טלוויזיה
+,Uncle,Dod,דוד
+,University,U-ni-ver-si-ta,אוניברסיטה
+,Vacation,Chuf-sha,חופשה
+,Vegetables,Ye-ra-kot,ירקות
+,Wall,Kir,קיר
+,Wallet,Ar-nak,ארנק
+,Walnut,E-goz me-lech,אגוז מלך
+,Water,Ma-yim,מים
+,Watermelon,A-va-ti-ach,אבטיח
+,We,A-nach-nu,אנחנו
+,Weapon,Ne-shek,נשק
+,Weather,Me-zeg a-vir,מזג אוויר
+,Wednesday,Yom re-vi-i,יום רביעי
+,Week,Sha-vu-a,שבוע
+,Weekend,Sof sha-vu-a,סוף שבוע
+,Weight,Mish-kal,משקל
+,West,Ma-a-rav,מערב
+,Wife,I-sha,אישה
+,Window,Cha-lon,חלון
+,Wine,Yay-in,יין
+,Winter,Cho-ref,חורף
+,World,O-lam,עולם
+,Year,Sha-na,שנה
+,Yogurt,Yo-gurt,יוגורט
+,You (f.),At,את
+,You (f.p.),A-ten,אתן
+,You (m.),A-ta,אתה
+,You (m.p.),A-tem,אתם
+Phrases,,,
+,Bless you,Liv-ri-ut,לבריאות
+,Cheers!,Le-cha-yim,לחיים
+,Date of birth,Ta-a-rich lei-da,תאריך לידה
+,Dinner,A-ru-chat e-rev,ארוחת ערב
+,Excuse me,Sli-kha,סליחה
+,First name,Shem pra-ti,שם פרטי
+,Get going,Ya-la,יאללה
+,Good luck,Be-hats-la-cha,בהצלחה
+,Hello,Sha-lom,שלום
+,It is possible,Ef-shar,אפשר
+,Lunch,A-ru-chat tso-ho-ra-yim,ארוחת צהריים
+,Please,Be-va-ka-sha,בבקשה
+,Hold on,Shni-ya,שניה
+,See you later,Le-hit-ra-ot,להתראות
+,Thank you,To-da,תודה
+,There is/are,Yesh,יש
+,There isn’t/aren’t,Ein,אין
+Question Words,,,
+,How,Eich,איך
+,How much,Ka-ma,כמה
+,What,Ma,מה
+,When,Ma-tai,מתי
+,Where,Ei-fo,איפה
+,Which,Ei-ze,איזה
+,Why,La-ma,למה
