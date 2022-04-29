@@ -1,7 +1,8 @@
 import csv
 import json 
+import sys
 
-filename = "common_words.csv"
+filename = sys.argv[1] if len(sys.argv) > 1 and len(sys.argv[1]) > 0 else "common_words.csv"
 
 result = []
 
@@ -20,6 +21,6 @@ with open(filename) as csv_file:
     print(word_desc)
     result.append(word_desc)
     
-f = open("common_words.json", "w")
+f = open(filename.split('.')[0] + ".json", "w")
 json.dump(result, f, indent=4)
 f.close()
