@@ -1,2 +1,2 @@
-# hebrew-learning
-Scripts and data for learning Hebrew
+# Hebrew Learning
+My scripts and data for learning Hebrew
