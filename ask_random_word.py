@@ -1,5 +1,6 @@
 from pywebio.input import input, FLOAT
-from pywebio.output import put_text, clear, toast, put_markdown, put_scope, use_scope, put_table, put_button
+from pywebio.output import put_text, clear, toast, put_markdown, put_scope,\
+                           use_scope, put_table, put_button, put_collapse, put_link
 import gtts
 from playsound import playsound
 import json
@@ -35,10 +36,10 @@ def play_to_english_round(word: Word):
   clear()
   if result:
     toast('Success!')
-    put_markdown("**Correct**: *" + word.hebrew + "* is *" + word.english + "*")
+    put_markdown("**Correct**: *" + word.hebrew.strip() + "* is *" + word.english.strip() + "*")
   else:
     toast('Fail!')
-    put_markdown("**Incorrect**: *" + answer + "* is *not* *" + word.english + "*")
+    put_markdown("**Incorrect**: *" + answer.strip() + "* is *not* *" + word.english.strip() + "*")
   return word
           
           
@@ -55,7 +56,7 @@ def play_to_hebrew_round(word: Word):
   else:
     toast('Fail!')
     put_markdown("**Incorrect**: *" + answer + "* is not *" + word.hebrew + "*")
-  play_hebrew_word(word.hebrew)  
+  play_hebrew_word(word.hebrew)   
   return word
       
       
@@ -68,7 +69,7 @@ put_scope('question')
 
 with open(filename) as common_words:
   # We choose subset of N words and ask one of them repeatedly
-  N = 20
+  N = int(input('Type in the number of words you would like to study'))
   words_list = [Word.from_json(desc) for desc in json.load(common_words)]
   random.shuffle(words_list)
 
@@ -80,10 +81,12 @@ with open(filename) as common_words:
   
   while True:
     use_scope('question')
-    word_id = random.randint(0, N - 1)
+    word_id = min(N-1, int(random.expovariate(N/2.)))
     word_desc = words_list[word_id]
     res = None
-    if random.randint(0,1) == 1:
+    alpha_h2e = word_desc.h2e_success/(1.+word_desc.h2e_attempts) 
+    alpha_e2h = word_desc.e2h_success/(1.+word_desc.e2h_attempts) 
+    if random.random() >= (alpha_h2e + .25)/(alpha_e2h + alpha_h2e + .5):
       res = play_to_english_round(word_desc)
       word_desc = res if res is not None else word_desc 
     else:
@@ -93,15 +96,23 @@ with open(filename) as common_words:
       break
 
     use_scope('worst_words')
-    words_by_success = sorted(words_list[:N], key=lambda x: min(x.h2e_success/(1.+x.h2e_attempts),
-                                                            x.e2h_success/(1.+x.e2h_attempts)))
-    put_table(tdata=[[put_button(word.english, 
-                               onclick=make_word_play_lambda(word.hebrew)),
+    words_by_success = sorted(words_list[:N], key=lambda x: x.h2e_success/(1.+x.h2e_attempts) + 
+                                                            x.e2h_success/(1.+x.e2h_attempts))
+    for i in range(N):
+      words_list[i] = words_by_success[i]
+    put_collapse(title='Word list', 
+                 content=[
+                   put_table(tdata=[[put_button(word.english, 
+                                                onclick=make_word_play_lambda(word.hebrew)),
                     word.hebrew + '(' + word.translit + ')',
                     str(word.e2h_success) + '/' + str(word.e2h_attempts),
-                    str(word.h2e_success) + '/' + str(word.h2e_attempts)] for word in words_by_success],
-            header=['English', 'Hebrew', 'English2Hebrew', 'Hebrew2English'])                                                        
+                    str(word.h2e_success) + '/' + str(word.h2e_attempts),
+                    put_link(name='Context',
+                             url='https://context.reverso.net/translation/hebrew-english/' + word.hebrew, 
+                             new_window=True)] for word in words_by_success],
+            header=['English', 'Hebrew', 'English2Hebrew', 'Hebrew2English', 'Context'])],
+            open=False)                                                        
 
-  f = open(filename, "w")
-  json.dump(words_list, f, cls=WordJSONEncoder) 
-  f.close()
+    f = open(filename, "w")
+    json.dump(words_list, f, cls=WordJSONEncoder, indent=4) 
+    f.close()
