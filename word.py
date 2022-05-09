@@ -1,14 +1,29 @@
 from difflib import SequenceMatcher
+from typing import List, Dict
 import json
 import copy
 import time
+from collections import defaultdict
 
 def equals_up_to_1(a: str, b: str) -> bool:
-    if len(a) != len(b):
-        return False
     similarity = SequenceMatcher(None, a, b).ratio()
     print(a, b, similarity)
-    return similarity >= 1 - 1./len(a) - 1e-4
+    return similarity >= 1 - 1./max(len(a), len(b)) - 1e-4
+
+def strip_parentheses(s: str) -> str:
+    """
+    Cleans up all parentheses contents of a string.
+    """
+    result = []
+    inside = False
+    for x in s:
+        if x == '(':
+            inside = True
+        if not inside:
+            result.append(x)
+        if x == ')':
+            inside = False
+    return "".join(result)
 
 
 class Word:
@@ -33,13 +48,26 @@ class Word:
         self.e2h_success_timespamps = []
         self.h2e_success_timestamps = []
 
+    def join(self, another: 'Word') -> bool:
+        if self.english != another.english:
+            return False
+        self.e2h_attempts += another.e2h_attempts
+        self.h2e_attempts += another.h2e_attempts
+        self.e2h_success += another.e2h_success
+        self.h2e_success += another.h2e_success
+        self.e2h_failures += another.e2h_failures
+        self.h2e_failures += another.h2e_failures
+        self.e2h_success_timestamps += another.e2h_success_timestamps
+        self.h2e_success_timestamps += another.h2e_success_timestamps
+        
+
     def hebrew_correct(self, attempt: str):
         attempt = attempt.strip()
         return equals_up_to_1(attempt, self.hebrew)
 
     def english_correct(self, attempt: str):
         attempt = attempt.strip()
-        return equals_up_to_1(attempt.lower(), self.english.lower())
+        return equals_up_to_1(attempt.lower(), strip_parentheses(self.english.lower()))
 
     def make_hebrew_attempt(self, attempt: str):
         self.e2h_attempts += 1
@@ -93,3 +121,19 @@ class WordJSONEncoder(json.JSONEncoder):
                     "hebrew_to_english_success_timestamps": obj.h2e_success_timestamps,                    
                     }
         return json.JSONEncoder.default(self, obj)
+
+
+def join_two_wordlists(list1: List[Word], list2: List[Word]) -> List[Word]:
+    d: Dict[str, List[Word]] = defaultdict(list)
+    for w in list1 + list2:
+        d[w.english].append(w)
+    result = []
+    for key, value in d.items():
+        if len(value) == 0:
+            continue
+        joint_word = value[0]
+        for w in value[1:]:
+            joint_word.join(w)
+        result.append(joint_word)
+    return result
+    
